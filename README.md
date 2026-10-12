@@ -2,7 +2,7 @@
 
 Projet consacré à l’anonymisation de documents PDF.
 
-> **État au 12 octobre 2026 :** ce dépôt est encore au stade initial. La branche `main` ne contient qu’un fichier `README.md` (ce document) et aucun code, script, dépendance, test ou fichier PDF d’exemple. Le dépôt ne fournit donc pas encore d’outil installable ou utilisable.
+> **État au 12 octobre 2026 :** ce dépôt est encore au stade initial. Le dépôt contient de la documentation de cadrage, mais aucun code, script, dépendance, test ou fichier PDF d’exemple. Le dépôt ne fournit donc pas encore d’outil installable ou utilisable.
 
 ## Objectif envisagé
 
@@ -32,10 +32,20 @@ Aucune garantie de confidentialité ou d’anonymisation n’est revendiquée po
 
 ```text
 .
-└── README.md
+├── README.md
+└── docs/
+    ├── CADRAGE.md
+    └── VALIDATION.md
 ```
 
-Il n’y a actuellement ni documentation technique séparée, ni code source, ni tests, ni workflow d’intégration continue, ni licence déclarée.
+Il n’y a actuellement ni code source, ni tests, ni workflow d’intégration continue, ni licence déclarée.
+
+## Documentation
+
+- [Cadrage du futur outil](docs/CADRAGE.md) : état vérifié, décisions ouvertes, proposition de premier prototype et documentation manquante.
+- [Protocole de validation proposé](docs/VALIDATION.md) : cas synthétiques, contrôles de suppression et critères d’acceptation.
+
+Ces documents préparent le développement ; ils ne décrivent pas un logiciel déjà disponible. Leurs choix proposés restent à valider.
 
 ## Prochaines étapes proposées
 
